@@ -21,7 +21,8 @@ body::before {
     z-index: -1;
     pointer-events: none;
   }
-  
+
+/* Nav Bar */
 header {
     background-color: #181818; 
     padding: 1rem 0;
@@ -137,6 +138,16 @@ section {
     box-shadow: 0 12px 25px rgba(240, 78, 48, 0.6);
   }
   
+  #contact {
+    margin: 5rem auto;
+    max-width: 800px;
+    background: linear-gradient(145deg, #727272, #121212); 
+    padding: 1.9rem;
+    border: 1px solid #2e2e2e; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8), inset 0 1px 5px rgba(255, 255, 255, 0.05);
+  }
+
   /*Jacket Measurement Page*/
   #measurement-form {
     background: linear-gradient(145deg, #181818, #121212);

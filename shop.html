@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-</body>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">Jackets</h2>
+      <div class="shop-items">
+            <div class="shop-item">
+                  <span class="shop-item-title">Alpinestars GP Plus V4 Jacket</span>
+                  <img class="shop-item-image" src="images/alpinestars_gp_plus_v4_leather_jacket_black_black_750x750.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">$579.95</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Alpinestars Dusk Airflow Jacket</span>
+                <img class="shop-item-image" src="images/alpinestars_dusk_airflow_jacket_black_black_750x750.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$499.95</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Placeholder Text</span>
+                <img class="shop-item-image" src="Images/REB_ITM_800.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Placeholder Text</span>
+                <img class="shop-item-image" src="Images/Rebelution_DUB.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+    </div>
+      </section>
+      <section class="container content-section">
+        <h2 class="section-header">Accessories</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Placeholder Text</span>
+                <img class="shop-item-image" src="Images/RebTanTee_150x_Sun&Sea.avif">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.95</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Placeholder Text</span>
+                <img class="shop-item-image" src="Images/SunforestHoodieCharcoal_150x.avif">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$65.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>          
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+        </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+  </body>
 </html>

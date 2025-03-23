@@ -1,3 +1,3 @@
-# JRL_Racing is a passing project now turned into a business. 
-Webpage lets you enter custom mesurements for your jacket
-There are video tutorials on a guide to take your jacket specs(measurements)
+# JRL_Racing 
+Developed an e-commerce website for custom motorcycle jackets, allowing customers to browse accessories and gear. 
+mplemented intuitive navigation and responsive design to enhance user experience.

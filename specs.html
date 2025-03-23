@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+<main>
+    <section id="measurement-form" class="hidden">
+        <h2>Custom Jacket Measurements</h2>
+        <form id="jacketForm"> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" />
+        
+                <label for="preferred">Preferred Contact Method</label>
+                <div class="preferredContact">
+                  <label><input type="radio" name="prefContact" />Email</label>
+                  <label><input type="radio" name="prefContact" />Phone</label>
+                </div>
+        
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+        
+                <button type="submit">Submit</button>
+              </form>     
+</main>
+
+<footer>
+    <p>&copy; 2025 JRL Racing. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

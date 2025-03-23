@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JRL Racing Gear</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to JRL Racing </h1>
+    <p>Your one-stop shop for motorcycle jackets, custom gear, and riding accessories.</p>
+    <p>At JRL Racing, we’re passionate about providing riders with high-quality, stylish, and durable gear.</p> 
+    <p>Whether you're a casual rider or a road warrior, we've got something for everyone.</p>
+    <a href="shop.html" class="button">Shop Now</a>
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <div class="shop-category">
+      <h3>Custom Jackets</h3>
+      <p>Choose leather or fabric and input your measurements.</p>
+      <button onclick="showMeasurementForm()">Design Your Jacket</button>
+    </div>
+
+    <div class="shop-category">
+      <h3>Riding Gear</h3>
+      <p>Shop helmets, gloves, boots, and more.</p>
+      <button onclick="alert('Redirecting to Riding Gear Page...')">Browse Gear</button>
+    </div>
+  </section>
+
+
+  <hr>
+  <section id="contact">
+    <h2>For any other questions or concerns, fill out the form below.</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JRL Racing. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

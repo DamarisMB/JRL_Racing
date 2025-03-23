@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacker Measurements</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+    </header>
+
+
+<section id="measurement-form" class="hidden">
+    <h2>Custom Jacket Measurements</h2>
+    <form id="jacketForm">
+    <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phine">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" />
+
+   
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br>
+
+      <label for="material">Material:</label>
+      <select id="material" name="material" required>
+        <option value="leather">Leather</option>
+        <option value="fabric">Fabric</option>
+      </select>
+
+      <label for="chest">Chest (in inches):</label>
+      <input type="number" id="chest" name="chest" min="20" max="80" required>
+
+      <label for="waist">Waist (in inches):</label>
+      <input type="number" id="waist" name="waist" min="20" max="80" required>
+
+      <label for="bicep">Bicep Circ (in inches):</label>
+      <input type="number" id="bicep" name="bicep" min="20" max="60" required>
+
+      <label for="sleeve">Sleeve Length (in inches):</label>
+      <input type="number" id="sleeve" name="sleeve" min="20" max="40" required>
+
+      <label for="preferred">Preferred Contact Method</label>
+      <div class="preferredContact">
+        <label><input type="radio" name="prefContact" />Email</label>
+        <label><input type="radio" name="prefContact" />Phone</label>
+      </div>
+
+      <label for="comments">Comments/ Additional Details:</label>
+      <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+
+      <button type="submit">Submit</button>    
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 JRL Racing. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+  </html>

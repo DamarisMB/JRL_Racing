@@ -203,11 +203,11 @@ form textarea {
 
 /*Shop Items*/
 .section-header {
-font-size: 55px;
-color: #1c1c1c;
-padding: 5px;
-text-align: center;
-text-shadow: white 1px 1px 6px;
+  font-size: 55px;
+  color: #1c1c1c;
+  padding: 5px;
+  text-align: center;
+  text-shadow: white 1px 1px 6px;
 }
 
 .shop-item {
@@ -250,14 +250,14 @@ text-shadow: white 1px 1px 6px;
   justify-content: space-around;
 }
 
-.shop-description{
-font-size: 12px;
-font-weight: lighter;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-unicode-bidi: isolate;
+.shop-description {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
 
 .btn-primary {
@@ -306,5 +306,15 @@ footer p {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  .blurb h2 {
+    font-size: 2rem;
   }
 }
